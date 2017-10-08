@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+<head>
+    
+    <title>ACIP</title>
+    <link href="aicp.css" type="text/css" rel="stylesheet"/>
+    
+    </head>
+
+<body onLoad="change()">
+    
+    
+    
+    <header>
+    
+       
+        <!--DATE-->
+        <p id="demo" class="section"></p>
+        
+        <script >
+            
+           /*function main()
+            {
+            $('.submit').on('click',function(){
+              $('.submit').toggleClass('tog');
+                   
+               })
+            }
+            
+            $(document).ready(main);*/
+            
+           var d=new Date(); document.getElementById("demo").innerHTML=d.toUTCString();
+            
+            function thanks()
+            {
+                alert("Thank for your visit.")
+            }
+            
+             var n=0;
+        var images=["a3.jpg","a11.jpg","a2.jpg","a6.jpg","a4.jpg","l1.jpg","kol.jpg"];    
+            
+            
+        function next()
+        {
+            var b=document.getElementById("slider");
+            
+            n++;
+            
+            if(n>=images.length)
+                n=0;
+            
+            b.src=images[n];
+            
+        }
+        
+        function change()
+        {
+            
+            setInterval(next,5000);
+        }
+        
+        </script>
+        
+        <!--end DATE-->
+        
+        <div id="header" class="section" >
+        
+        <img src="ai.jpg" alt="" class="img-petit"/>
+        
+        
+        </div>
+        
+        <!--<img class="big" src="a55.jpg"  />
+        -->
+        <div class="section">
+        
+            <h1><span>الله موجود بلا مكان</span></h1>
+      
+        </div>
+        
+        <p> قال الامام احمد الرفعي رضي الله عنه :
+غاية المعرفة بالله الايقان بوجوده تعالى بلا كيف و لا مكان .
+الله تعالى خلق كل شيء, خلق المكان. هو قبل المكان كان.
+
+ و الله تعالى لا يتغير فهو دائما و ابدا موجود بلا مكان .
+مهما تصورت ببالك فالله بخلاف ذلك.
+            قال تعالى :"ليس كمثله شيء 
+
+</p>
+       <div> 
+           
+           
+        <iframe width="654" height="410" class="vid" src="https://www.youtube.com/embed/-ixqleoHumE" frameborder="0" allowfullscreen></iframe>
+
+    
+    </div>
+        
+   <br>     
+<h1><span>درس</span></h1>
+   <img id="slider" src="bi2.jpg" class="vid"  width="600" height="320"/>    
+        
+   <p>Listen carefully : </p>     
+<audio src="mak.mp3" controls ></audio>
+
+
+        <h1><span>مدائح</span></h1>
+        
+        <div class="aud">
+            
+       <ul>   
+        <li>Ramadhan 2017: <audio  src="audio1.mp3" controls ></audio></li>
+           <br><br>
+          <li>  Akhthtu3ahda: <audio src="akhathtul3ahda.mp3"  controls> </audio></li>
+            
+            <br><br>
+            
+          <li>  Unaady: <audio src="unaady.mp3" controls></audio></li>
+           <br><br>
+           <li>Law amdah tul al lel: <audio src="Law%20Amdah%20Tul%20Al%20Lel%20%20Yahya%20Bassal.mp3" controls  loop></audio> </li>
+         </ul>     
+            
+          </div> 
+       
+        <div>
+        <iframe width="654" height="410" class="vid"src="https://www.youtube.com/embed/padfcyjD3uA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    
+        <h1><span>Contacts</span></h1>
+       <div class="section">
+        <form>
+            
+            <input name="name" placeholder="Name" type="text" required /><br>
+                
+                <input name="email" placeholder="Email" type="email" required/><br>
+                
+                <textarea name="message" placeholder="Message" required></textarea><br/>
+                
+                <input type="submit" value="SEND" class="submit"  />
+                  
+            </form>
+        </div> 
+       
+    </header>
+    
+    
+    
+    
+    
+   <!-- <iframe width="826" height="465" src="https://www.youtube.com/embed/xr4ZMVMw1fs" frameborder="0" allowfullscreen></iframe>-->
+    
+    
+    
+    
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+
+    
+    </body>
+
+
+
+</html>
